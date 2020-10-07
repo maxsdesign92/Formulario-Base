@@ -10,6 +10,8 @@
     <form class="" action="">
 
         <br>
+        <h2>FORMULARIO</h2>
+        <br>
 <!-- Nombre -->
         <div class="form">
             <input type="text" name="name" autocomplete="off" required>
@@ -21,7 +23,7 @@
         <div class="form">
             <input type="text" name="apellido" autocomplete="off" required>
             <label for="apellido" class="label-name">
-                <span class="content-name">Apellido.</span>
+                <span class="content-name">Apellido</span>
             </label>
         </div>
 <!-- DNI -->
@@ -33,21 +35,22 @@
         </div>
         <br>
 <!-- Género -->
+        <div class="textos"><h3>Género</h3></div>
         <div class="radio">
-            <h3>Género</h3>
-            <input class="input-radio" type="radio" name="Masculino" id="femenino" value="Femenino">
-            <label class="label-radio" for="femenino">Femenino</label>
-            <input class="input-radio" type="radio" name="Masculino" id="masculino" value="Masculino">
-            <label class="label-radio" for="masculino">Masculino</label>
-            <input class="input-radio" type="radio" name="Otro" id="otro" value="Otro">
-            <label class="label-radio" for="otro">Otro</label>
+            <input type="radio" name="Masculino" id="femenino" value="Femenino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="Masculino" id="masculino" value="Masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="Otro" id="otro" value="Otro">
+            <label for="otro">Otro</label>
         </div>
         <br>
 <!-- Fecha de Nacimiento  -->
+        <div class="textos"><h3>Fecha de Nacimiento</h3></div>
         <div class="date">
-            <h3>Fecha de Nacimiento</h3>
             <input type="date" id="nacimiento" name="fecha-nacimiento" required> 
         </div>
+        <br>
 <!-- Teléfono -->
         <div class="form">
             <input type="text" name="phone" autocomplete="off" required>
@@ -64,9 +67,10 @@
             </label> 
         </div>
         <br>
+        <br>
 <!-- Domicilio  -->
+            <div class="textos"><h3>Domicilio</h3></div>
             <div class="contenedorDom">
-                <h3>Domicilio</h3>
                 <select name="Provincia" id="provincia" required>
                     <option value="">Seleccione su Provincia</option>
                     <option>Buenos Aires</option>
@@ -143,6 +147,7 @@
                 </label> 
             </div>
     </form>
+    <br>
 </body>
 </html>
 
