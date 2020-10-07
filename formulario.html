@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style-form.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form class="" action="">
+
+        <br>
+<!-- Nombre -->
+        <div class="form">
+            <input type="text" name="name" autocomplete="off" required>
+            <label for="name" class="label-name">
+                <span class="content-name">Nombre</span>
+            </label>
+        </div>
+<!-- Apellido -->
+        <div class="form">
+            <input type="text" name="apellido" autocomplete="off" required>
+            <label for="apellido" class="label-name">
+                <span class="content-name">Apellido</span>
+            </label>
+        </div>
+<!-- DNI -->
+        <div class="form">
+            <input type="text" name="DNI" autocomplete="off" required>
+            <label for="DNI" class="label-name">
+                <span class="content-name">DNI</span>
+            </label>
+        </div>
+        <br>
+<!-- Género -->
+        <div class="radio">
+            <h3>Género</h3>
+            <input class="input-radio" type="radio" name="Masculino" id="femenino" value="Femenino">
+            <label class="label-radio" for="femenino">Femenino</label>
+            <input class="input-radio" type="radio" name="Masculino" id="masculino" value="Masculino">
+            <label class="label-radio" for="masculino">Masculino</label>
+            <input class="input-radio" type="radio" name="Otro" id="otro" value="Otro">
+            <label class="label-radio" for="otro">Otro</label>
+            
+        </div>
+        <br>
+<!-- Fecha de Nacimiento  -->
+        <div class="date">
+            <h3>Fecha de Nacimiento</h3>
+            <input type="date" id="nacimiento" name="fecha-nacimiento" required> 
+        </div>
+<!-- Teléfono -->
+        <div class="form">
+            <input type="text" name="phone" autocomplete="off" required>
+            <label for="phone" class="label-name">
+                <span class="content-name">Teléfono</span>
+            </label>
+        </div>
+        <br>
+<!-- Email -->
+        <div class="form">    
+            <input type="text" name="Email" autocomplete="off" required>
+            <label for="email" class="label-name">
+                <span class="content-name">Email</span>
+            </label> 
+        </div>
+        <br>
+<!-- Domicilio  -->
+            <div class="contenedorDom">
+                <h3>Domicilio</h3>
+                <select name="Provincia" id="provincia" required>
+                    <option value="">Seleccione su Provincia</option>
+                    <option>Buenos Aires</option>
+                    <option>Catamarca</option>
+                    <option>Chaco</option>
+                    <option>Chubut</option>
+                    <option>Córdoba</option>
+                    <option>Corrientes</option>
+                    <option>Entre Ríos</option>
+                    <option>Formosa</option>
+                    <option>Jujuy</option>
+                    <option>La Pampa</option>
+                    <option>La Rioja</option>
+                    <option>Mendoza</option>
+                    <option>Misiones</option>
+                    <option>Neuquén</option>
+                    <option>Río Negro</option>
+                    <option>Salta</option>
+                    <option>San Juan</option>
+                    <option>San Luis</option>
+                    <option>Santa Cruz</option>
+                    <option>Santa Fe</option>
+                    <option>Santiago del Estero</option>
+                    <option>Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                    <option>Tucumán</option>
+                </select>
+                <br>
+                <br>
+                <select name="Departamento" id="departamento" required>
+                    <option value="">Seleccione su Departamento</option>
+                    <option>25 de Mayo</option>
+                    <option>9 de Julio</option>
+                    <option>Albardón</option>
+                    <option>Angaco</option>
+                    <option>Calingasta</option>
+                    <option >Capital</option>
+                    <option >Caucete</option>
+                    <option >Chimbas</option>
+                    <option >Iglesia</option>
+                    <option>Jáchal</option>
+                    <option >Pocito</option>
+                    <option >Rawson</option>
+                    <option >Rivadavia</option>
+                    <option >San Martín</option>
+                    <option >Santa Lucía</option>
+                    <option >Sarmiento</option>
+                    <option >Ullum</option>
+                    <option >Valle Fértil</option>
+                    <option >Zonda</option>
+                </select>
+            </div>
+            <div class="form">
+                <input type="text" required>
+                <label for="calles" class="label-name">
+                    <span class="content-name">Calle</span>
+                </label> 
+            </div>
+            <div class="form">
+                <input type="text" required>
+                <label for="" class="label-name">
+                    <span class="content-name">Numeración</span>
+                </label> 
+            </div>
+            <div class="form">
+                <input type="text" required>
+                <label for="email" class="label-name">
+                    <span class="content-name">Piso</span>
+                </label> 
+            </div>
+            <div class="form">
+                <input type="text"required>
+                <label for="numero" class="label-name">
+                    <span class="content-name">N°</span>
+                </label> 
+            </div>
+    </form>
+</body>
+</html>
+
